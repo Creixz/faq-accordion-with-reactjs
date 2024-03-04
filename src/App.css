@@ -6,7 +6,7 @@
 }
 
 .faq__wrapper {
-  background: url(./assets/images/background-pattern-desktop.svg);
+  background: url(/public/assets/images/background-pattern-desktop.svg);
   background-repeat: no-repeat;
   background-size: auto;
   background-position:  center top;
