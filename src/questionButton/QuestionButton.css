@@ -1,0 +1,11 @@
+.question__button {
+    cursor: pointer;
+    width: 30px;
+    height: 30px;
+    flex-shrink: 0;
+}
+
+.question__button > img {
+    width: 30px;
+    height: 30px;
+}
