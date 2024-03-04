@@ -3,18 +3,7 @@ import './QACard.css'
 import qas from '../utils/QA.json'
 import QuestionButton from '../questionButton/QuestionButton';
 
-const QACard = () => {
-
-    const initialStates = Array(qas.length).fill(false);
-    initialStates[0] = true;
-
-    const [openStates, setOpenStates] = useState(initialStates);
-
-    const handleToggleAnswer = (index) => {
-        const newOpenStates = [...openStates];
-        newOpenStates[index] = !newOpenStates[index];
-        setOpenStates(newOpenStates);
-    }
+const QACard = ({ openStates, handleToggleAnswer }) => {
 
     return (
         <div className="qa__container">
